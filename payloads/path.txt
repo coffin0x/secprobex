@@ -1,0 +1,15 @@
+admin
+login
+secret
+dashboard
+.git
+.env
+phpmyadmin
+cgi-bin/
+config
+uploads
+images
+api
+backup
+database
+wp-admin
