@@ -48,7 +48,7 @@ The `payloads` folder contains essential payload files required for various test
    ```bash
    python3 secprobex.py
    ```
-   After starting the tool, you will be presented with options to choose the type of test:
+2. After starting the tool, you will be presented with options to choose the type of test:
 
 ```markdown
 1. Subdomain Finder
@@ -59,7 +59,7 @@ The `payloads` folder contains essential payload files required for various test
 6. SSTI (Server-Side Template Injection)
 ```
 
-Enter the number corresponding to the test you want to perform. For example, to perform an XSS test, input:
+3. Enter the number corresponding to the test you want to perform. For example, to perform an XSS test, input:
 
 ```bash
 5
@@ -78,3 +78,27 @@ The tool will run the specified test and display the results, indicating whether
 ```bash
 $ python3 secprobex.py
 ```
+
+Choose the type of test:
+
+```
+1. Subdomain Finder
+2. Path Finder
+3. LFI (Local File Inclusion)
+4. SQLi (SQL Injection)
+5. XSS (Cross-Site Scripting)
+6. SSTI (Server-Side Template Injection)
+```
+
+Enter the choice, for example:
+
+```
+Enter choice: 5
+```
+
+Provide the target URL:
+
+```
+Enter the target URL: https://example.com?param=
+```
+
