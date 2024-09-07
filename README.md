@@ -110,7 +110,7 @@ Contributions to SecProbeX are welcome! If you have suggestions or improvements,
 
 For any questions or feedback, you can reach out to me via:
 
-- **Email**: jshsjjzjdjjshsjj@gmail.com
+- **Telegram**: [coffin0x](https://t.me/coffin0x)
 - **GitHub**: [coffin0x](https://github.com/coffin0x)
 
 ## Acknowledgements
