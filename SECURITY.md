@@ -6,7 +6,7 @@ If you discover a security vulnerability in SecProbeX, please follow these steps
 
 1. **Do Not** create a public issue or pull request about the vulnerability. This may expose the vulnerability before it is fixed.
 2. **Send a Detailed Report**:
-   - **Telegram**: @coffin0x
+   - **Telegram**: [coffin0x](https://t.me/coffin0x)
    - **Subject**: [SecProbeX Security Issue]
    - **Body**: Provide a clear and detailed description of the vulnerability, including steps to reproduce, impact, and any other relevant information.
 
@@ -42,4 +42,4 @@ To ensure the security of your usage of SecProbeX, consider the following best p
 
 For any security-related questions or concerns, please contact us via Telegram:
 
-- **Telegram**: @coffin0x
+- **Telegram**: [coffin0x](https://t.me/coffin0x)
