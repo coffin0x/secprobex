@@ -33,12 +33,12 @@ pip install -r requirements.txt
 
 The `payloads` folder contains crucial payload files required for different tests. Ensure the folder has the following files:
 
-`subdomains.txt`: Contains payloads for subdomain enumeration.
-`path.txt`: Contains payloads for discovering valid paths.
-`lfi.txt`: Contains payloads for Local File Inclusion tests.
-`sqli.txt`: Contains payloads for SQL Injection tests.
-`xss.txt`: Contains payloads for Cross-Site Scripting tests.
-`ssti.txt`: Contains payloads for Server-Side Template Injection tests.
+- `subdomains.txt`: Contains payloads for subdomain enumeration.
+- `path.txt`: Contains payloads for discovering valid paths.
+- `lfi.txt`: Contains payloads for Local File Inclusion tests.
+- `sqli.txt`: Contains payloads for SQL Injection tests.
+- `xss.txt`: Contains payloads for Cross-Site Scripting tests.
+- `ssti.txt`: Contains payloads for Server-Side Template Injection tests.
 
 ## Usage
 
@@ -87,4 +87,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Author
 
-Developed by coffin0x.
+Developed by *coffin0x*.
