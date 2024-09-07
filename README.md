@@ -30,21 +30,51 @@ Install the required Python libraries by running:
 pip install -r requirements.txt
 ```
 
-## Payloads
+### Payloads
 
-The payloads folder contains essential payload files required for various tests. Ensure the folder includes the following files:
+The `payloads` folder contains essential payload files required for various tests. Ensure that the following files are present in the folder:
 
-- subdomains.txt for subdomain enumeration.
-- lfi.txt for Local File Inclusion tests.
-- sqli.txt for SQL Injection tests.
-- xss.txt for Cross-Site Scripting tests.
+- `subdomains.txt`: Used for subdomain enumeration.
+- `lfi.txt`: Used for Local File Inclusion (LFI) tests.
+- `sqli.txt`: Used for SQL Injection (SQLi) tests.
+- `xss.txt`: Used for Cross-Site Scripting (XSS) tests.
 
-## Usage
+### Usage
 
-### Running the Tool
+#### Step-by-Step Instructions:
 
-Execute SecProbeX with the following command:
+1. **Run the Tool**: Use the following command to execute SecProbeX:
+
+   ```bash
+   python3 secprobex.py
+   ```
+   After starting the tool, you will be presented with options to choose the type of test:
+
+```markdown
+1. Subdomain Finder
+2. Path Finder
+3. LFI (Local File Inclusion)
+4. SQLi (SQL Injection)
+5. XSS (Cross-Site Scripting)
+6. SSTI (Server-Side Template Injection)
+```
+
+Enter the number corresponding to the test you want to perform. For example, to perform an XSS test, input:
 
 ```bash
-python3 secprobex.py
+5
+```
+
+The tool will then prompt you to enter the URL to be tested. Provide the target URL and press Enter. For example:
+
+```bash
+https://example.com?param=
+```
+
+The tool will run the specified test and display the results, indicating whether the target is vulnerable or not.
+
+### Example Workflow
+
+```bash
+$ python3 secprobex.py
 ```
