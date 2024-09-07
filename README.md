@@ -66,7 +66,7 @@ The `payloads` folder contains crucial payload files required for different test
    
 4. **Review the Results**: The tool will execute the selected test and display results, indicating whether the target is vulnerable.
 
-## Example Workflow
+### Example Workflow
 
 ```
 $ python3 secprobex.py
@@ -80,6 +80,43 @@ Choose the type of test:
 Enter choice: 5
 Enter the target URL: https://example.com?param=test
 ```
+
+## Getting Started
+
+To get started with SecProbeX, follow these steps:
+
+1. **Clone the Repository**: Use the command provided in the [Installation](#installation) section.
+2. **Install Dependencies**: Install the required Python libraries using pip.
+3. **Prepare Payloads**: Ensure the `payloads` folder contains the necessary files.
+4. **Run the Tool**: Execute the tool and follow the [Step-by-Step Instructions](#step-by-step-instructions) to perform tests.
+
+## Configuration
+
+SecProbeX does not require additional configuration beyond setting up the payload files. If future versions include configurable settings, instructions will be provided here.
+
+## Troubleshooting
+
+If you encounter issues with SecProbeX, consider the following:
+
+- **Dependencies Not Installed**: Ensure all required libraries are installed using `pip install -r requirements.txt`.
+- **File Not Found**: Verify that all necessary payload files are present in the `payloads` folder.
+- **Permission Issues**: Run the tool with appropriate permissions if you encounter access-related errors.
+
+## Contributing
+
+Contributions to SecProbeX are welcome! If you have suggestions or improvements, please submit a pull request. Ensure that your changes are well-documented and tested before submitting.
+
+## Contact
+
+For any questions or feedback, you can reach out to me via:
+
+- **Email**: your.email@example.com
+- **GitHub**: [coffin0x](https://github.com/coffin0x)
+
+## Acknowledgements
+
+- Thanks to the open-source community for the libraries and tools used in SecProbeX.
+- Special thanks to contributors and testers who provided valuable feedback.
 
 ## License
 
